@@ -1,13 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-.botonera{
-	display: flex;
-	width: 1136px;
-	align-items: flex-start;
-	gap: 48px;
-	padding: 10px 20px;
-	background-color: #ffdaa1;
-	border-radius: 18px;
-	border: 2px solid;
-	border-color: #303030;
+* {
+	font-family: 'Krona One', sans-serif;
+	cursor: url("img/cursor.png"), auto;
 }
