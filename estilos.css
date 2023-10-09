@@ -12,3 +12,7 @@ body {
 	background: linear-gradient(#FFFBE7, #CFA9FE);
 	background-size: 200% 200%;
 }
+header{
+	display: flex;
+	background-color: #83F35C;
+}
