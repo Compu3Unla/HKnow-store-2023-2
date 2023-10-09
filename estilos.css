@@ -4,3 +4,11 @@
 	font-family: 'Krona One', sans-serif;
 	cursor: url("img/cursor.png"), auto;
 }
+body {
+	padding: 40px 50px 100px 40px;
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFEF4;
+	background: linear-gradient(#FFFBE7, #CFA9FE);
+	background-size: 200% 200%;
+}
