@@ -16,3 +16,73 @@ header{
 	display: flex;
 	background-color: #83F35C;
 }
+
+.Arrival {
+	justify-content: center;
+}
+
+p {
+	font-size:26px;
+	flex:1;
+	padding-right: 20px;
+
+}
+
+h3 {
+	color:#B388EB;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 90px;
+}
+
+.shopnow {
+	display: flex;
+	width: 231px;
+	height: 35px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background: #B388EB;
+	color: #000000;
+	border: 1.5px solid black;
+	border-radius: 20px;
+	list-style:none;
+	font-size: 20px;
+}
+
+.shopnow:hover {
+	background-color:#5ECD38;
+}
+
+.catalogo {
+	padding: 50px 0px 0px 0px;
+	background-color:#FFFBE7;
+	justify-content: center;
+}
+
+h4 {
+	color:#C39DF2;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 40px;
+	padding: 0px 40px
+}
+.contenido h5 {
+	color: #000000;
+	margin: 25px 0px 7px 0px;
+	font-size: 28px;
+}
+
+.contenido p{
+	font-size: 26px;
+}
+.productofila {
+	padding: 40px 0px 60px 0px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	
+}
+.productofila2 {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+}
