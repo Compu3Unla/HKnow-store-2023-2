@@ -4,8 +4,14 @@
 	font-family: 'Krona One', sans-serif;
 	cursor: url("img/cursor.png"), auto;
 }
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
-	padding: 40px 50px 100px 40px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	background-color: #FFFEF4;
@@ -18,26 +24,37 @@ header{
 }
 
 .Arrival {
+	flex-direction:row;
 	justify-content: center;
+	max-width: 600px;
+	padding: 0px 0px 250px;
+	margin:auto; 
+}
+
+.cuboimagen {
+	float: right;
+	width: 100px;
+	height: 200px;
 }
 
 p {
 	font-size:26px;
 	flex:1;
 	padding-right: 20px;
-
 }
 
 h3 {
 	color:#B388EB;
 	font-family: "Montserrat", "sans-serif";
 	font-size: 90px;
+	text-shadow: 1px -1px 2px #000000;
 }
 
 .shopnow {
 	display: flex;
 	width: 231px;
 	height: 35px;
+
 	padding: 10px;
 	justify-content: center;
 	align-items: center;
@@ -54,20 +71,22 @@ h3 {
 }
 
 .catalogo {
-	padding: 50px 0px 0px 0px;
+	padding: 60px 0px 0px 0px;
 	background-color:#FFFBE7;
 	justify-content: center;
+	background: linear-gradient(#FFFBE7, #E5D0FE);
 }
 
 h4 {
 	color:#C39DF2;
 	font-family: "Montserrat", "sans-serif";
 	font-size: 40px;
-	padding: 0px 40px
+	padding: 40px;
+	margin: 0px 100px 0px 100px;
 }
 .contenido h5 {
 	color: #000000;
-	margin: 25px 0px 7px 0px;
+	margin: 30px 0px 20px 0px;
 	font-size: 28px;
 }
 
@@ -79,10 +98,12 @@ h4 {
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
+	margin: 0px 100px 0px 100px;
 	
 }
 .productofila2 {
 	display: flex;
 	flex-direction:row;
 	justify-content: space-around;
+	margin: 0px 100px 0px 100px;
 }
