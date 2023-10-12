@@ -41,6 +41,11 @@ header{
 	align-items: center;
 	align-content: space-around;
 	justify-content: center;
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-left: 100px;
 }
 nav ul {
 	list-style: none;
