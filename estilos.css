@@ -19,8 +19,38 @@ body {
 	background-size: 200% 200%;
 }
 header{
-	display: flex;
+	position: sticky;
 	background-color: #83F35C;
+	padding: 10px 96px; 
+}
+.logo{
+	display: flex;
+}
+.segundacolumnaheader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.botoneraheader{
+	list-style: none;
+	border-radius: 18px;
+	border: 2px solid #313131;
+	background: #FFDAA1; 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+	justify-content: center;
+}
+nav ul {
+	list-style: none;
+}
+.botoneraheader ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+	gap: 70px;
 }
 
 .Arrival {
@@ -60,7 +90,7 @@ h3 {
 	align-items: center;
 	background: #B388EB;
 	color: #000000;
-	border: 1.5px solid black;
+	border: 1.5px solidblack;
 	border-radius: 20px;
 	list-style:none;
 	font-size: 20px;
