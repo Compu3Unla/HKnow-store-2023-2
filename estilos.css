@@ -146,7 +146,7 @@ h4 {
 	align-self: stretch;
 }
 
-.contenido.video{
+.contenido-video{
 	display: flex;
 	padding: 25px 20px;
 	align-items: flex-start;
@@ -156,7 +156,7 @@ h4 {
 	border: 2px solid #000;
 }
 
-.contenido.video video{
+.contenido-video video{
 	width: 822px;
 	height: 472px;
 	border-radius: 20px;
@@ -177,14 +177,14 @@ h4 {
 	border: 1px solid #000;
 	background: #FFFBE7;
 }
-.contenido.info h4{
+.contenido-info h4{
 	display: flex;
 	padding: 10px 20px;
 	align-items: flex-start;
 	gap: 10px;
 }
 
-.contenido.info p{
+.contenido-info p{
 	display: flex;
 	width: 811px;
 	padding: 0px 20px;
