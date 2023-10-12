@@ -13,6 +13,39 @@ body {
 	background-size: 200% 200%;
 }
 header{
-	display: flex;
+	position: sticky;
 	background-color: #83F35C;
+	padding: 10px 96px; 
+}
+h2 {
+	font-size: 12pt;
+}
+.logo{
+	display: flex;
+}
+.segundacolumnaheader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.botoneraheader{
+	list-style: none;
+	border-radius: 18px;
+	border: 2px solid #313131;
+	background: #FFDAA1; 
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+	justify-content: center;
+}
+nav ul {
+	list-style: none;
+}
+.botoneraheader ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: space-around;
+	gap: 70px;
 }
