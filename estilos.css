@@ -4,8 +4,14 @@
 	font-family: 'Krona One', sans-serif;
 	cursor: url("img/cursor.png"), auto;
 }
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 body {
-	padding: 40px 50px 100px 40px;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	background-color: #FFFEF4;
@@ -45,4 +51,144 @@ nav ul {
 	align-items: center;
 	align-content: space-around;
 	gap: 70px;
+}
+
+.Arrival {
+	flex-direction:row;
+	justify-content: center;
+	max-width: 600px;
+	padding: 0px 0px 250px;
+	margin:auto; 
+}
+
+.cuboimagen {
+	float: right;
+	width: 100px;
+	height: 200px;
+}
+
+p {
+	font-size:26px;
+	flex:1;
+	padding-right: 20px;
+}
+
+h3 {
+	color:#B388EB;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 90px;
+	text-shadow: 1px -1px 2px #000000;
+}
+
+.shopnow {
+	display: flex;
+	width: 231px;
+	height: 35px;
+
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	background: #B388EB;
+	color: #000000;
+	border: 1.5px solidblack;
+	border-radius: 20px;
+	list-style:none;
+	font-size: 20px;
+}
+
+.shopnow:hover {
+	background-color:#5ECD38;
+}
+
+.catalogo {
+	padding: 60px 0px 0px 0px;
+	background-color:#FFFBE7;
+	justify-content: center;
+	background: linear-gradient(#FFFBE7, #E5D0FE);
+}
+
+h4 {
+	color:#C39DF2;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 40px;
+	padding: 40px;
+	margin: 0px 100px 0px 100px;
+}
+.contenido h5 {
+	color: #000000;
+	margin: 30px 0px 20px 0px;
+	font-size: 28px;
+}
+
+.contenido p{
+	font-size: 26px;
+}
+.productofila {
+	padding: 40px 0px 60px 0px;
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin: 0px 100px 0px 100px;
+	
+}
+.productofila2 {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	margin: 0px 100px 0px 100px;
+}
+
+.video{
+	display: flex;
+	padding: 30px 100px;
+	align-items: flex-start;
+	gap: 37px;
+	align-self: stretch;
+}
+
+.contenido.video{
+	display: flex;
+	padding: 25px 20px;
+	align-items: flex-start;
+	gap: 40px;
+	flex: 1 0 0;
+	border-radius: 20px;
+	border: 2px solid #000;
+}
+
+.contenido.video video{
+	width: 822px;
+	height: 472px;
+	border-radius: 20px;
+	border: 2px solid #000;
+}
+
+.contenido.info{
+	display: flex;
+	width: 838px;
+	height: 472px;
+	padding: 15px 10px;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 25px 10px;
+	flex-wrap: wrap;
+	
+	border-radius: 30px;
+	border: 1px solid #000;
+	background: #FFFBE7;
+}
+.contenido.info h4{
+	display: flex;
+	padding: 10px 20px;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.contenido.info p{
+	display: flex;
+	width: 811px;
+	padding: 0px 20px;
+	align-items: flex-start;
+	gap: 10px;
+	flex-shrink: 0;
 }
