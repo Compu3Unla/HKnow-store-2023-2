@@ -102,33 +102,37 @@ nav ul li a{
 /*seccion New Arrivals*/
 
 
-	.Arrival{
+.Arrival{
 	max-width: 600px;
-	padding: 0px 0px 250px;
-	margin:auto; 
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+    padding: 0px 0px 250px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 .info-arrival {
-	display: flex;
-	width: 626px;
-	padding: 80px 20px;
-	align-items: flex-start;
-	align-content: flex-start;
-	gap: 30px;
-	flex-wrap: wrap;
-	
+    display: flex;
+    width: 626px;
+    padding: 80px 20px;
+    align-items: center;
+    align-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .cuboimagen {
 	width: 100px;
-	height: 200px;
-	display: flex;
-	align-self: flex-end;
-
+    height: 200px;
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    justify-content: space-between;
 }
+
 
 p {
 	font-size:26px;
@@ -210,11 +214,36 @@ h3 {
 	margin: 0px 100px 0px 100px;
 }
 
+/*sale*/
+
+.sale{
+    background-image: url("img/pattern_cubos01.jpg");
+	background-repeat: repeat;
+    background-size: 100%;
+	margin-top: 5rem;
+    padding-top: 10px;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/*anuncio*/
+.anuncio{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	
+}
 
 /*video*/
 
 .video{
 	display: flex;
+	margin-top: 60px;
 	padding: 30px 100px;
 	align-items: flex-start;
 	gap: 37px;
@@ -265,6 +294,66 @@ h3 {
 	flex-shrink: 0;
 	font-family: "Montserrat", "sans-serif";
 }
+/*formulario*/
+.contacto {
+    margin-top: 6rem;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+.contenedor-formulario-contacto label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+
+.contenedor-formulario-contacto textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.contenedor-formulario-contacto .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset var(--primary-color);
+  font-size: 0.875rem;
+  outline: none;
+}
+.contacto h2 {
+  text-align: center;
+  margin-bottom: var(--bottom-margin-2);
+}
+
+.contenedor-formulario-contacto {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px 
+}
+.input-field:placeholder {
+  padding: 0.5rem;
+  color: grey;
+}
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+.submit-btn:hover {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+}
 footer {
 	background-color: #83F35C;
 	display: flex;
@@ -273,6 +362,7 @@ footer {
 	gap: 10px;
 	border: 3px solid #313131;
 	padding: 15px;
+	margin: 10px 20px;
 }
 footer ul li {
 	list-style: none;

@@ -42,18 +42,20 @@
 	</header>
 	<main>
 		<section  class="Arrival">
-			<div class="cuboimagen">
-				<img src="img/cuboprincipal.png" width="495px" height="570px" alt="cuboprincipal">
-			</div>
 			<div class="info-arrival">
-			<h3>NEW ARRIVALS</h3>
-			<p>Shop the <span style="color:#83F35C">best</span> puzzle cubes from across the world</p>
-			<nav class="botonshop">
-				<ul class="shopnow">
-					<li><b href="Catalogue">Shop Now</b></li>
-				</ul>
-			</nav>
+				<h3>NEW ARRIVALS</h3>
+				<p>Shop the <span style="color:#83F35C">best</span> puzzle cubes from across the world</p>
+				<nav class="botonshop">
+					<ul class="shopnow">
+						<li><b href="Catalogue">Shop Now</b></li>
+					</ul>
+				</nav>
+				<div class="cuboimagen">
+				  <img src="img/cuboprincipal.png" width="495px" height="570px" alt="cuboprincipal">
+			    </div>
 			</div>
+		
+			
 		</section >
 		<section class="catalogo" id="catalogo">
 			<h4>Featured Products</h4>
@@ -118,6 +120,16 @@
 				</div>
 			</article>
 		</section>
+		
+		<section class="sale" id="sale">
+			<img src="img/saleverde.svg" width="300px" height="500px" alt="saleverde">
+			<img src="img/mascotapose3.svg" width="300px" height="500px" alt="mascotasale">
+			<img src="img/salevioleta.svg" width="300px" height="500px" alt="salevioleta">
+		</section>
+		<section class="anuncio">
+			<img src="img/anuncio.png" width="1445px" height="365px" alt="anuncio">
+		</section>
+		
 		<seccion class="video">
 			<div class="contenido-video">
 				<video src="img/video_cubo.mp4" autoplay loop width="1680" height="472">
@@ -130,7 +142,32 @@
 					problem-solving skills to the max and provide endless hours of brain-teasing fun.</p>
 			</div>
 		</seccion>
+		
+		<section class="contacto" id="contacto">
+			  <h2>Contact</h2>
+			  <div class="formulario-contacto-contenedor">
+					<div class="formulario-contacto">
+					  <form action="https://formspree.io/f/xyylngw" method="POST"/>
+						<div class="control-formulario">
+						  <label for="name">Name</label>
+						  <input type="text" id="name" name="sender-name" placeholder="Write your name here" class="input-field" required/>
+						</div>
+				   </div>
+				   <div class="control-formulario">
+						  <label for="email">E-mail</label>
+						  <input type="email" id="email" name="sender-email" placeholder="Enter your email" class="input-field" required/>
+				   </div>
+				   <div class="control-formulario">
+					  <label for="message">Message</label><textarea id="mensaje" cols="60" rows="10" placeholder="Write your message here" name="message" class="input-field" required></textarea>
+				   </div>
+				   <div>
+				     <input type="submit" value="Send" id="submit-btn" class="submit-btn"/>
+				   </div>
+			</div>	
+		</section>
+		
 	</main>
+
 	<footer>
 		<ul>
 			<li>2023 All rights reserved.</li>
