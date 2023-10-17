@@ -225,18 +225,25 @@ h3 {
     display: flex;
     justify-items: center;
     flex-direction: row;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-	
 }
 
+/*anuncio*/
+.anuncio{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	
+}
 
 /*video*/
 
 .video{
 	display: flex;
+	margin-top: 60px;
 	padding: 30px 100px;
 	align-items: flex-start;
 	gap: 37px;
@@ -325,11 +332,11 @@ h3 {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  box-shadow: 0 3px 10px 
 }
 .input-field:placeholder {
   padding: 0.5rem;
-  color: var(--primary-color);
+  color: grey;
 }
 .submit-btn {
   width: 100%;
@@ -355,6 +362,7 @@ footer {
 	gap: 10px;
 	border: 3px solid #313131;
 	padding: 15px;
+	margin: 10px 20px;
 }
 footer ul li {
 	list-style: none;
