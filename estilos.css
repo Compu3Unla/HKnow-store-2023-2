@@ -23,6 +23,10 @@ header{
 	background-color: #83F35C;
 	padding: 10px 96px; 
 }
+.sectionheader{
+	display: flex;
+	justify-content: center;
+}
 .logo{
 	display: flex;
 	flex-direction: row;
@@ -34,6 +38,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 45px;
 }
 .botoneraheader{
 	list-style: none;
