@@ -309,7 +309,7 @@ label {
   width:30%;
   display: inline-block;
 }
-div {
+.divisionesform {
   margin: 10px;
   padding: 10px 0px 20px;
   border-bottom: 1px solid #ccc;
