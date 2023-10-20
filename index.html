@@ -12,18 +12,16 @@
 </head>
 
 <body>
-	<header>
-		<section>
-			<div class="logo">
-				<img src="img/logocompleto_blancovioleta.svg" alt="logoheader" width="105" height="60">
-			</div>
+<header>
+		<section class="sectionheader">
+			<img src="img/logocompleto_blancovioleta.svg" alt="logoheader" width="200" height="200">
 			<div class="segundacolumnaheader">
 			<nav class="botoneraheader">
 				<ul class="itemsbotonera">
-					<li><a href="#home">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="#aboutus">About Us</a></li>
 					<li><a href="#membership">Membership</a></li>
-					<li><a href="#catalogue">Catalogue</a></li>
+					<li><a href="catalogo.html">Catalogue</a></li>
 					<li><a href="#trackorder">Track Your Order</a></li>
 				</ul>
 			</nav>
@@ -31,10 +29,13 @@
 				<div class="textoinferiorheader">
 					<h2>Retail and Wholesale from Hong Kong</h2>
 				</div>
+				
 				<div class="imageninferiorheader">
 					<img class="busqueda" src="img/busqueda.svg" alt="barrabusqueda"/>
 					<img class="icono-carrito" src="img/iconocarritonegro.svg" alt="iconocarritonegro"/>
-					<img class="icono-usuario" src="img/iconousuario.svg" alt="iconousuario"/>
+					<a href="vinculo.html"> 
+					 <img class="icono-usuario" src="img/iconousuario.svg" alt="iconousuario"/>
+					</a>
 				</div>
 			</div>
 			</div>
@@ -42,9 +43,7 @@
 	</header>
 	<main>
 		<section  class="Arrival">
-			<div class="cuboimagen">
 				<img src="img/cuboprincipal.png" width="495px" height="570px" alt="cuboprincipal">
-			</div>
 			<div class="info-arrival">
 			<h3>NEW ARRIVALS</h3>
 			<p>Shop the <span style="color:#83F35C">best</span> puzzle cubes from across the world</p>
@@ -118,6 +117,14 @@
 				</div>
 			</article>
 		</section>
+		<section class="sale" id="sale">
+				<img src="img/saleverde.svg" width="300px" height="500px" alt="saleverde">
+				<img src="img/mascotapose3.svg" width="300px" height="500px" alt="mascotasale">
+				<img src="img/salevioleta.svg" width="300px" height="500px" alt="salevioleta">
+		</section>
+		<section class="anuncio">
+				<img src="img/anuncio.png" width="1445px" height="365px" alt="anuncio">
+		</section>
 		<seccion class="video">
 			<div class="contenido-video">
 				<video src="img/video_cubo.mp4" autoplay loop width="1680" height="472">
@@ -130,6 +137,27 @@
 					problem-solving skills to the max and provide endless hours of brain-teasing fun.</p>
 			</div>
 		</seccion>
+		<section class="contacto" id="contacto">
+			<form action="/send_email.php" method="post">
+					<div class="divisionesform">
+						<label for="name">Name</label>
+						<input type="text" id="name" />
+					</div>
+				<div class="divisionesform">
+						<label for="mail">E-mail:</label>
+						<input type="email" id="mail" placeholder="yourname@website.com" />
+				</div>
+					<div class="divisionesform">
+						<label for="msg">Message:</label>
+						<textarea id="msg"></textarea>
+					</div>
+
+					<div class="button">
+						<button type="submit">Send</button>
+					</div>
+				</form>
+		</section>
+		
 	</main>
 	<footer>
 		<ul>

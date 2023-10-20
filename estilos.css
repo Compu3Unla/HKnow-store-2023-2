@@ -23,6 +23,10 @@ header{
 	background-color: #83F35C;
 	padding: 10px 96px; 
 }
+.sectionheader{
+	display: flex;
+	justify-content: center;
+}
 .logo{
 	display: flex;
 	flex-direction: row;
@@ -34,6 +38,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 45px;
 }
 .botoneraheader{
 	list-style: none;
@@ -51,12 +56,12 @@ header{
 	padding-top: 10px;
 	margin-left: 100px;
 	
-}
-nav ul {
+	}
+	nav ul {
 	list-style: none;
 	
-}
-nav ul li a{
+	}
+	nav ul li a{
 	text-decoration: none;
 	color: #313131;
 }
@@ -103,12 +108,11 @@ nav ul li a{
 
 
 	.Arrival{
-	max-width: 600px;
-	padding: 0px 0px 250px;
 	margin:auto; 
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	gap: 5%;
+	justify-content: center;
 }
 
 .info-arrival {
@@ -119,15 +123,8 @@ nav ul li a{
 	align-content: flex-start;
 	gap: 30px;
 	flex-wrap: wrap;
+	flex-direction: column;
 	
-}
-
-.cuboimagen {
-	width: 100px;
-	height: 200px;
-	display: flex;
-	align-self: flex-end;
-
 }
 
 p {
@@ -210,15 +207,13 @@ h4 {
 	margin: 0px 100px 0px 100px;
 }
 
-
 /*video*/
 
 .video{
 	display: flex;
 	padding: 30px 100px;
-	align-items: flex-start;
 	gap: 37px;
-	align-self: stretch;
+	align-items: center;
 }
 
 .contenido-video{
@@ -238,9 +233,7 @@ h4 {
 
 .contenido-info {
 	display: flex;
-	width: 838px;
-	height: 472px;
-	padding: 15px 10px;
+	padding: 60px 10px;
 	align-items: flex-start;
 	align-content: flex-start;
 	gap: 25px 10px;
@@ -265,6 +258,197 @@ h4 {
 	gap: 10px;
 	flex-shrink: 0;
 }
+
+/*sale*/
+
+.sale{
+	background-image: url("img/pattern_cubos01.jpg");
+	background-repeat: repeat;
+	background-size: 100%;
+	margin-top: 5rem;
+	padding-top: 10px;
+	display: flex;
+	justify-items: center;
+	flex-direction: row;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+/*anuncio*/
+
+.anuncio{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	
+}
+
+/*formulario*/
+.contacto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100px;
+}
+
+label {
+  width:30%;
+  display: inline-block;
+}
+.divisionesform {
+  margin: 10px;
+  padding: 10px 0px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+input, textarea {
+  width: 30%;
+  border: none;
+  background: #ccc;
+  padding:10px;
+  outline: none;
+  height: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input:hover, textarea:hover {
+  background: #aaa;
+}
+
+
+input:focus, textarea:focus {
+  background: rgba(255,0,0,.2);
+}
+
+button {
+  background: black;
+  border: none;
+  padding: 5px;
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button:hover {
+ background: rgba(255,0,0,.5); 
+}
+
+button:active {
+  background: rgba(255,0,0,1);
+}
+
+/*usuariosesion*/
+
+.usuario {
+	margin:10% auto 0 auto;
+	padding:30px;
+	width:400px;
+	height:auto;
+	overflow:hidden;
+	background:white;
+	border-radius:10px;
+}
+
+form label {
+	font-size:20px;
+	color:darkgray;
+	cursor:pointer;
+}
+
+form label,
+form input {
+	float:left;
+	clear:both;
+}
+
+form input {
+	margin:15px 0;
+	padding:15px 10px;
+	width:100%;
+	outline:none;
+	border:1px solid #bbb;
+	border-radius:20px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	   -moz-box-sizing:border-box;
+	        box-sizing:border-box;
+    -webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+form input[type=text]:focus,
+form input[type="password"]:focus {
+	border-color:#B388EB;
+}
+
+input[type=submit] {
+	padding:15px 50px;
+	width:auto;
+	background:#1abc9c;
+	border:none;
+	color:white;
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+	clear:right;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+input[type=submit]:hover {
+	opacity:0.8;
+}
+
+input[type="submit"]:active {
+	opacity:0.4;
+}
+
+.forgot,
+.register {
+	margin:10px;
+	float:left;
+	clear:left;
+	display:inline-block;
+	color:#B388EB;
+	text-decoration:none;
+}
+
+.forgot:hover,
+.register:hover {
+	color:#5ECD38;
+}
+
+#logo {
+	margin:0 auto;
+	width:200px;
+	font-family: 'Krona One', sans-serif;
+	font-size:40px;
+	font-weight:bold;
+	text-align:center;
+	color:#B388EB;
+	-webkit-transition:0.2s ease all;
+	   -moz-transition:0.2s ease all;
+	    -ms-transition:0.2s ease all;
+	     -o-transition:0.2s ease all;
+	        transition:0.2s ease all;
+}
+
+#logo:hover {
+	color:#83F35C;
+}
+/*footer*/
+
 footer {
 	background-color: #83F35C;
 	display: flex;
@@ -272,7 +456,13 @@ footer {
 	align-items: center;
 	gap: 10px;
 	border: 3px solid #313131;
+	padding: 15px;
+	margin: 10px 20px;
 }
 footer ul li {
 	list-style: none;
+}
+footer ul {
+	display: flex;
+	gap: 55px;
 }
