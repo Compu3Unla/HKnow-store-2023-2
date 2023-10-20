@@ -107,6 +107,7 @@ header{
 /*seccion New Arrivals*/
 
 
+
 	.Arrival{
 	margin:auto; 
 	display: flex;
@@ -126,6 +127,7 @@ header{
 	flex-direction: column;
 	
 }
+
 
 p {
 	font-size:26px;
@@ -176,7 +178,7 @@ h3 {
 	background: linear-gradient(#FFFBE7, #E5D0FE);
 }
 
-h4 {
+.catalogo h4 {
 	color:#C39DF2;
 	font-family: "Montserrat", "sans-serif";
 	font-size: 40px;
@@ -207,10 +209,39 @@ h4 {
 	margin: 0px 100px 0px 100px;
 }
 
+
+=======
+/*sale*/
+
+.sale{
+    background-image: url("img/pattern_cubos01.jpg");
+	background-repeat: repeat;
+    background-size: 100%;
+	margin-top: 5rem;
+    padding-top: 10px;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/*anuncio*/
+.anuncio{
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+	
+}
+
+
 /*video*/
 
 .video{
 	display: flex;
+	margin-top: 60px;
 	padding: 30px 100px;
 	gap: 37px;
 	align-items: center;
@@ -221,24 +252,23 @@ h4 {
 	padding: 25px 20px;
 	align-items: flex-start;
 	gap: 40px;
-	flex: 1 0 0;
 }
 
 .contenido-video video{
 	width: 822px;
-	height: 472px;
+	height: 434px;
 	border-radius: 20px;
 	border: 2px solid #000;
 }
 
 .contenido-info {
 	display: flex;
+
 	padding: 60px 10px;
 	align-items: flex-start;
 	align-content: flex-start;
 	gap: 25px 10px;
 	flex-wrap: wrap;
-	
 	border-radius: 30px;
 	border: 1px solid #000;
 	background: #FFFBE7;
@@ -248,6 +278,9 @@ h4 {
 	padding: 10px 20px;
 	align-items: flex-start;
 	gap: 10px;
+	color:#C39DF2;
+	font-size: 40px;
+	font-family: 'Krona One', sans-serif;
 }
 
 .contenido-info p{
@@ -257,7 +290,43 @@ h4 {
 	align-items: flex-start;
 	gap: 10px;
 	flex-shrink: 0;
+	font-family: "Montserrat", "sans-serif";
 }
+/*formulario*/
+.contacto{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100px;
+}
+
+label {
+  width:30%;
+  display: inline-block;
+}
+.divisionesform {
+  margin: 10px;
+  padding: 10px 0px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+input, textarea {
+  width: 30%;
+  border: none;
+  background: #ccc;
+  padding:10px;
+  outline: none;
+  height: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input:hover, textarea:hover {
+  background: #aaa;
+}
+
 
 /*sale*/
 
@@ -319,6 +388,8 @@ textarea {
 input:hover, textarea:hover {
   background: #aaa;
 }
+
+=======
 
 
 input:focus, textarea:focus {
