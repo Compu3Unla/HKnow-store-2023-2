@@ -18,6 +18,25 @@ body {
 	background: linear-gradient(#FFFBE7, #CFA9FE);
 	background-size: 200% 200%;
 }
+/*footer*/
+
+footer {
+	background-color: #83F35C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	border: 3px solid #313131;
+	padding: 15px;
+	margin-top: 10px;
+}
+footer ul li {
+	list-style: none;
+}
+footer ul {
+	display: flex;
+	gap: 55px;
+}
 header{
 	position: sticky;
 	background-color: #83F35C;
@@ -520,23 +539,4 @@ input[type="submit"]:active {
 
 #logo:hover {
 	color:#83F35C;
-}
-/*footer*/
-
-footer {
-	background-color: #83F35C;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	border: 3px solid #313131;
-	padding: 15px;
-	margin: 10px 20px;
-}
-footer ul li {
-	list-style: none;
-}
-footer ul {
-	display: flex;
-	gap: 55px;
 }
