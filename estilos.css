@@ -409,9 +409,11 @@ textarea:hover {
 input:focus,
 textarea:focus {
     background: rgba(255, 0, 0, 0.2);
+}
 input:hover, textarea:hover {
 	background: #aaa;
 }
+
 input:focus, textarea:focus {
   background: rgba(255,0,0,.2);
 }
@@ -537,4 +539,93 @@ input[type="submit"]:active {
 
 #logo:hover {
 	color:#83F35C;
+}
+
+/*COMPRA*/
+
+.informacion-producto{
+	display: flex;
+	padding: 10px 0px;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	gap: 10%;
+}
+
+.informacion-producto textos{
+	width: 557px;
+	height: 563px;
+}
+
+.informacion-producto h3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 30%;
+	padding-top: 10%;
+	
+	color: #1E1E1E;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.informacion-producto p{
+	width: 556px;
+	height: 124px;
+	flex-shrink: 0;
+	gap: 10%;
+	padding-top: 5%;
+	
+	color: #000;
+	font-family: Montserrat;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 161.9%; /* 32.38px */
+}
+
+.compra nav ul{
+	display: flex;
+	width: 230px;
+	height: 58px;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.compra nav ul:hover{
+	border-radius: 25px;
+	border: 1px solid #000;
+	background: #FFDAA1;
+} 
+
+.vistas-cubo{
+	width: 30%;
+	height: 30%;
+}
+
+
+/*footer*/
+
+footer {
+	background-color: #83F35C;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	border: 3px solid #313131;
+	padding: 15px;
+	margin: 10px 20px;
+}
+footer ul li {
+	list-style: none;
+}
+footer ul {
+	display: flex;
+	gap: 55px;
 }
