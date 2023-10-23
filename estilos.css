@@ -186,7 +186,7 @@ h3 {
 /*productos*/
 
 .catalogo {
-	padding: 60px 0px 0px 0px;
+	padding: 60px 0px 90px 0px;
 	background-color:#FFFBE7;
 	justify-content: center;
 	background: linear-gradient(#FFFBE7, #E5D0FE);
@@ -195,18 +195,19 @@ h3 {
 .catalogo h4 {
 	color:#C39DF2;
 	font-family: "Montserrat", "sans-serif";
-	font-size: 40px;
+	font-size: 20pt;
 	padding: 40px;
 	margin: 0px 100px 0px 100px;
+	padding-left: 90px;
 }
 .contenido h5 {
 	color: #000000;
 	margin: 30px 0px 20px 0px;
-	font-size: 28px;
+	font-size: 15pt;
 }
 
 .contenido p{
-	font-size: 26px;
+	font-size: 15pt;
 }
 .productofila {
 	padding: 40px 0px 60px 0px;
@@ -257,6 +258,7 @@ h3 {
 	padding: 30px 100px;
 	gap: 37px;
 	align-items: center;
+	justify-content: center;
 }
 
 .contenido-video{
@@ -267,23 +269,24 @@ h3 {
 }
 
 .contenido-video video{
-	width: 822px;
-	height: 434px;
+	width: 600px;
+	height: 316px;
 	border-radius: 20px;
 	border: 2px solid #000;
 }
 
 .contenido-info {
 	display: flex;
-
 	padding: 60px 10px;
 	align-items: flex-start;
 	align-content: flex-start;
-	gap: 25px 10px;
+	gap: 10px 10px;
 	flex-wrap: wrap;
 	border-radius: 30px;
 	border: 1px solid #000;
 	background: #FFFBE7;
+	width: 605px;
+	height: 200px;
 }
 .contenido-info h4{
 	display: flex;
@@ -291,7 +294,7 @@ h3 {
 	align-items: flex-start;
 	gap: 10px;
 	color:#C39DF2;
-	font-size: 40px;
+	font-size: 20pt;
 	font-family: 'Krona One', sans-serif;
 }
 
@@ -303,6 +306,7 @@ h3 {
 	gap: 10px;
 	flex-shrink: 0;
 	font-family: "Montserrat", "sans-serif";
+	font-size: 14pt;
 }
 /*formulario*/
 .contacto{
