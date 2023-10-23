@@ -55,7 +55,6 @@ header{
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-left: 100px;
-	
 	}
 	nav ul {
 	list-style: none;
@@ -124,10 +123,8 @@ header{
 	align-content: flex-start;
 	gap: 30px;
 	flex-wrap: wrap;
-	flex-direction: column;
-	
+	flex-direction: column;	
 }
-
 
 p {
 	font-size:26px;
@@ -148,12 +145,10 @@ h3 {
 	align-items: flex-end;
 }
 
-
 .shopnow {
 	display: flex;
 	width: 231px;
 	height: 35px;
-
 	padding: 10px;
 	justify-content: center;
 	align-items: center;
@@ -388,12 +383,11 @@ input:hover,
 textarea:hover {
     background: #aaa;
 }
-
 input:focus,
 textarea:focus {
     background: rgba(255, 0, 0, 0.2);
 input:hover, textarea:hover {
-  background: #aaa;
+	background: #aaa;
 }
 input:focus, textarea:focus {
   background: rgba(255,0,0,.2);
