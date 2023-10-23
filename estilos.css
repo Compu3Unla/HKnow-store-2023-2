@@ -383,6 +383,7 @@ textarea {
   height: 100px;
 }
 
+
 input:hover,
 textarea:hover {
     background: #aaa;
@@ -391,6 +392,11 @@ textarea:hover {
 input:focus,
 textarea:focus {
     background: rgba(255, 0, 0, 0.2);
+input:hover, textarea:hover {
+  background: #aaa;
+}
+input:focus, textarea:focus {
+  background: rgba(255,0,0,.2);
 }
 
 button {
