@@ -225,6 +225,16 @@ h3 {
 	margin: 0px 100px 0px 100px;
 }
 
+.otros-productos {
+	padding-top: 80px;
+}
+
+.otros-productos h4 {
+	color:#C39DF2;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 14pt;
+}
+
 /*sale*/
 
 .sale{
@@ -377,10 +387,10 @@ input:hover, textarea:hover {
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 100px;
+	width: 50%;
 }
 
 label {
-  width:30%;
   display: inline-block;
 }
 .divisionesform {
@@ -390,7 +400,7 @@ label {
 }
 
 input, textarea {
-  width: 30%;
+  width: 50%;
   border: none;
   background: #ccc;
   padding:10px;
