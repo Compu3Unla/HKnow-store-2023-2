@@ -225,6 +225,16 @@ h3 {
 	margin: 0px 100px 0px 100px;
 }
 
+.otros-productos {
+	padding-top: 80px;
+}
+
+.otros-productos h4 {
+	color:#C39DF2;
+	font-family: "Montserrat", "sans-serif";
+	font-size: 14pt;
+}
+
 /*sale*/
 
 .sale{
