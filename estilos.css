@@ -387,10 +387,10 @@ input:hover, textarea:hover {
 	flex-direction: column;
 	justify-content: center;
 	margin-left: 100px;
+	width: 50%;
 }
 
 label {
-  width:30%;
   display: inline-block;
 }
 .divisionesform {
@@ -400,7 +400,7 @@ label {
 }
 
 input, textarea {
-  width: 30%;
+  width: 50%;
   border: none;
   background: #ccc;
   padding:10px;
