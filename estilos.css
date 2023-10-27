@@ -126,7 +126,7 @@ header{
 
 
 
-	.Arrival{
+.Arrival{
 	margin:auto; 
 	display: flex;
 	flex-direction: row-reverse;
@@ -189,16 +189,16 @@ h3 {
 	padding: 60px 0px 90px 0px;
 	background-color:#FFFBE7;
 	justify-content: center;
-	background: linear-gradient(#FFFBE7, #E5D0FE);
+	background: linear-gradient(#FFFBE7, #E5D0FE); 
 }
 
 .catalogo h4 {
+	display: flex;
+	justify-content: center;
 	color:#C39DF2;
 	font-family: "Montserrat", "sans-serif";
 	font-size: 20pt;
 	padding: 40px;
-	margin: 0px 100px 0px 100px;
-	padding-left: 90px;
 }
 .contenido h5 {
 	color: #000000;
@@ -207,22 +207,18 @@ h3 {
 }
 
 .contenido p{
+	margin: 0px 0px 40px;
 	font-size: 15pt;
 }
 .productofila {
-	padding: 40px 0px 60px 0px;
+	width: 50%;
+	padding: 0px 0px 60px 20px;
 	display: flex;
 	flex-direction:row;
-	justify-content: space-around;
-	margin: 0px 100px 0px 100px;
+	justify-content: space-between;
+	margin: auto;
 	flex-wrap: wrap;
 	
-}
-.productofila2 {
-	display: flex;
-	flex-direction:row;
-	justify-content: space-around;
-	margin: 0px 100px 0px 100px;
 }
 
 .otros-productos {
@@ -640,3 +636,6 @@ footer ul {
 	display: flex;
 	gap: 55px;
 }
+
+
+
