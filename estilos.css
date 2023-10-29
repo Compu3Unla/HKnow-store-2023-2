@@ -18,25 +18,7 @@ body {
 	background: linear-gradient(#FFFBE7, #CFA9FE);
 	background-size: 200% 200%;
 }
-/*footer*/
 
-footer {
-	background-color: #83F35C;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 10px;
-	border: 3px solid #313131;
-	padding: 15px;
-	margin-top: 10px;
-}
-footer ul li {
-	list-style: none;
-}
-footer ul {
-	display: flex;
-	gap: 55px;
-}
 header{
 	position: sticky;
 	background-color: #83F35C;
@@ -182,6 +164,10 @@ h3 {
 .shopnow:hover {
 	background-color:#5ECD38;
 }
+.shopnow a {
+	text-decoration: none;
+	color: black;
+}
 
 /*productos*/
 
@@ -315,40 +301,6 @@ h3 {
 	font-family: "Montserrat", "sans-serif";
 	font-size: 14pt;
 }
-/*formulario*/
-.contacto{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 100px;
-}
-
-label {
-  width:30%;
-  display: inline-block;
-}
-.divisionesform {
-  margin: 10px;
-  padding: 10px 0px 20px;
-  border-bottom: 1px solid #ccc;
-}
-
-input, textarea {
-  width: 30%;
-  border: none;
-  background: #ccc;
-  padding:10px;
-  outline: none;
-  height: 30px;
-}
-
-textarea {
-  height: 100px;
-}
-
-input:hover, textarea:hover {
-  background: #aaa;
-}
 
 
 /*sale*/
@@ -368,14 +320,6 @@ input:hover, textarea:hover {
 	align-items: flex-start;
 }
 
-/*anuncio*/
-
-.anuncio{
-	display: flex;
-	justify-content: center;
-	margin-top: 100px;
-	
-}
 
 /*formulario*/
 .contacto{
@@ -392,16 +336,13 @@ label {
 .divisionesform {
   margin: 10px;
   padding: 10px 0px 20px;
-  border-bottom: 1px solid #ccc;
 }
 
 input, textarea {
   width: 50%;
   border: none;
-  background: #ccc;
+  background: #FFFBE7;
   padding:10px;
-  outline: none;
-  height: 30px;
 }
 
 textarea {
@@ -415,73 +356,74 @@ textarea:hover {
 }
 input:focus,
 textarea:focus {
-    background: rgba(255, 0, 0, 0.2);
+    background: #83F35C;
 }
 input:hover, textarea:hover {
 	background: #aaa;
 }
 
 input:focus, textarea:focus {
-  background: rgba(255,0,0,.2);
+  background: #83F35C;
 }
 
 button {
-  background: black;
-  border: none;
-  padding: 5px;
-  color:white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	background: black;
+	border: none;
+	padding: 10px;
+	color:white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 15pt;
 }
 
 button:hover {
- background: rgba(255,0,0,.5); 
+ background: #C39DF2; 
 }
 
 button:active {
-  background: rgba(255,0,0,1);
+  background: #83F35C;
 }
 
 /*usuariosesion*/
 
 .usuario {
-	margin:10% auto 0 auto;
-	padding:30px;
-	width:400px;
-	height:auto;
-	overflow:hidden;
-	background:white;
-	border-radius:10px;
+	margin: 5% auto 0 auto;
+	padding: 30px;
+	width: 400px;
+	height: auto;
+	overflow: hidden;
+	background: white;
+	border-radius: 10px;
 }
 
 form label {
-	font-size:20px;
-	color:darkgray;
-	cursor:pointer;
+	font-size: 20px;
+	color: darkgray;
+	cursor: pointer;
 }
 
 form label,
 form input {
-	float:left;
-	clear:both;
+	float: left;
+	clear: both;
 }
 
 form input {
-	margin:15px 0;
-	padding:15px 10px;
-	width:100%;
-	outline:none;
-	border:1px solid #bbb;
-	border-radius:20px;
-	display:inline-block;
-	-webkit-box-sizing:border-box;
-	   -moz-box-sizing:border-box;
-	        box-sizing:border-box;
-    -webkit-transition:0.2s ease all;
-	   -moz-transition:0.2s ease all;
-	    -ms-transition:0.2s ease all;
-	     -o-transition:0.2s ease all;
-	        transition:0.2s ease all;
+	margin: 15px 0;
+	padding: 15px 10px;
+	width: 100%;
+	outline: none;
+	border: 1px solid #bbb;
+	border-radius: 20px;
+	display: inline-block;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+    -webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
 }
 
 form input[type=text]:focus,
@@ -490,62 +432,62 @@ form input[type="password"]:focus {
 }
 
 input[type=submit] {
-	padding:15px 50px;
-	width:auto;
-	background:#1abc9c;
-	border:none;
-	color:white;
-	cursor:pointer;
-	display:inline-block;
-	float:right;
-	clear:right;
-	-webkit-transition:0.2s ease all;
-	   -moz-transition:0.2s ease all;
-	    -ms-transition:0.2s ease all;
-	     -o-transition:0.2s ease all;
-	        transition:0.2s ease all;
+	padding: 15px 50px;
+	width: auto;
+	background: #1abc9c;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	clear: right;
+	-webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
 }
 
 input[type=submit]:hover {
-	opacity:0.8;
+	opacity: 0.8;
 }
 
 input[type="submit"]:active {
-	opacity:0.4;
+	opacity: 0.4;
 }
 
 .forgot,
 .register {
-	margin:10px;
-	float:left;
-	clear:left;
-	display:inline-block;
-	color:#B388EB;
-	text-decoration:none;
+	margin: 10px;
+	float: left;
+	clear: left;
+	display: inline-block;
+	color: #B388EB;
+	text-decoration: none;
 }
 
 .forgot:hover,
 .register:hover {
-	color:#5ECD38;
+	color: #5ECD38;
 }
 
 #logo {
-	margin:0 auto;
-	width:200px;
+	margin: 0 auto;
+	width: 200px;
 	font-family: 'Krona One', sans-serif;
-	font-size:40px;
-	font-weight:bold;
-	text-align:center;
-	color:#B388EB;
-	-webkit-transition:0.2s ease all;
-	   -moz-transition:0.2s ease all;
-	    -ms-transition:0.2s ease all;
-	     -o-transition:0.2s ease all;
-	        transition:0.2s ease all;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	color: #B388EB;
+	-webkit-transition: 0.2s ease all;
+	   -moz-transition: 0.2s ease all;
+	    -ms-transition: 0.2s ease all;
+	     -o-transition: 0.2s ease all;
+	        transition: 0.2s ease all;
 }
 
 #logo:hover {
-	color:#83F35C;
+	color: #83F35C;
 }
 
 /*COMPRA*/
@@ -627,7 +569,7 @@ footer {
 	gap: 10px;
 	border: 3px solid #313131;
 	padding: 15px;
-	margin: 10px 20px;
+	margin-top: 50px;
 }
 footer ul li {
 	list-style: none;
