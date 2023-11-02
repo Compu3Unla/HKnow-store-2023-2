@@ -137,24 +137,12 @@
 			</div>
 		</seccion>
 		<section class="contacto">
-			<form action="/send_email.php" method="post">
-					<div class="divisionesform">
-						<label for="name">Name</label>
-						<input type="text" id="name" />
-					</div>
-					<div class="divisionesform">
-						<label for="mail">E-mail:</label>
-						<input type="email" id="mail" placeholder="yourname@website.com" />
-					</div>
-					<div class="divisionesform">
-						<label for="msg">Message:</label>
-						<textarea id="msg"></textarea>
-					</div>
-
-					<div class="button">
-						<button type="submit">Send</button>
-					</div>
-				</form>
+			<form>
+				<input name="name" type="text" class="feedback-input" placeholder="Name" />   
+				<input name="email" type="text" class="feedback-input" placeholder="Email" />
+				<textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+				<input type="submit" value="SUBMIT"/>
+			</form>
 		</section>
 	</main>
 	<footer>
