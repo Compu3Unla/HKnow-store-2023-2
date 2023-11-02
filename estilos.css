@@ -103,6 +103,22 @@ header{
 	margin: 0px 15px 0px 15px;
 	
 }
+.itemsbotonera li:hover {
+	border-radius: 30px;
+	background-color: #B388EB;
+}
+
+img.busqueda:hover {
+	transform: scale(1.05);
+}
+
+img.icono-carrito:hover {
+	transform: scale(1.08);
+}
+
+img.icono-usuario:hover {
+	transform: scale(1.08);
+}
 
 /*seccion New Arrivals*/
 
@@ -219,6 +235,88 @@ h3 {
 	font-family: "Montserrat", "sans-serif";
 	font-size: 15pt;
 }
+div.caja.a .piraminx {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
+}
+div.caja.a:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.b:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.c:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.d:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.e:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.f:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.g:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.h:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.i:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.j:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.k:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.l:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.m:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.n:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.o:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
+
+div.caja.p:hover {
+    color: #B388EB;
+    transform: scale(1.12);
+}
 
 
 /*anuncio*/
@@ -306,7 +404,13 @@ h3 {
 	justify-content: space-evenly;
 	align-items: flex-start;
 }
+.sale img {
+	transition: var;
+}
 
+.sale img:hover {
+	transform: scale(1.09);
+}
 
 /*formulario*/
 .contacto {
@@ -354,11 +458,11 @@ textarea {
 /*usuariosesion*/
 
 .usuario {
-	margin: 5% auto 0 auto;
-	padding: 30px;
+	margin: 3% auto 0 auto;
+	padding: 60px;
 	width: 400px;
 	height: auto;
-	overflow: hidden;
+	overflow: auto;
 	background: white;
 	border-radius: 10px;
 }
