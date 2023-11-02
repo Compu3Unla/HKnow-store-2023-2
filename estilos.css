@@ -212,9 +212,12 @@ h3 {
 }
 
 .otros-productos h4 {
+	display:flex;
+	justify-content: center;
+	padding: 0px 0px 40px;
 	color:#C39DF2;
 	font-family: "Montserrat", "sans-serif";
-	font-size: 14pt;
+	font-size: 15pt;
 }
 
 
@@ -308,10 +311,11 @@ h3 {
 /*formulario*/
 .contacto {
 	display: flex;
-	max-width: 600px;
+	justify-content: center;
 	width: 100%;
 }
 .feedback-input {
+	display: flex;
 	color:white;
 	font-weight:500;
 	font-size: 18px;
@@ -397,7 +401,7 @@ form input[type="password"]:focus {
 input[type=submit] {
 	padding: 15px 50px;
 	width: auto;
-	background: #1abc9c;
+	background: #83F35C;
 	border: none;
 	color: white;
 	cursor: pointer;
