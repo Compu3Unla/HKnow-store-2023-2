@@ -235,9 +235,7 @@ h3 {
 	font-family: "Montserrat", "sans-serif";
 	font-size: 15pt;
 }
-div.caja.a .piraminx {
-	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
-}
+
 div.caja.a:hover {
     color: #B388EB;
     transform: scale(1.12);
