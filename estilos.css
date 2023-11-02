@@ -763,4 +763,10 @@ footer a {
 .itemsbotonera li {
 	font-size: 8pt;
 }
+footer ul li {
+	font-size: 5pt;
+}
+.anuncio {
+  overflow: hidden;
+}
 }
