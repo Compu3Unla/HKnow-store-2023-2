@@ -646,7 +646,10 @@ footer ul {
 	display: flex;
 	gap: 55px;
 }
-
+footer a {
+	text-decoration: none;
+	color: black;
+}
 /* galeria */
 #galeria {
 	display: none;
