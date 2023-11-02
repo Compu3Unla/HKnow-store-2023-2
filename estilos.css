@@ -566,9 +566,12 @@ input[type="submit"]:active {
 .compra {
 	display: flex;
 	justify-content: center;
-	gap: 5%
+	gap: 5%;
+	margin: 4% auto 0 auto;
 }
-
+ul.compra li:hover {
+	color: #B388EB;
+}
 .informacion-producto{
 	display: flex;
 	padding: 10px 0px;
@@ -728,4 +731,36 @@ footer a {
 .vistas-cubo {
 	display: flex;
 	gap: 2rem;
+}
+/* media vinculo */
+@media screen and (max-width: 600px) {
+	.itemsinferioresheader {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	gap: 2rem;
+	margin-bottom: 1rem;
+}
+.sectionheader {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.segundacolumnaheader {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 45px;
+}
+.botoneraheader {
+	margin: 0px;
+	padding: 0.5rem;
+}
+.botoneraheader ul {
+	gap: 20px;
+}
+.itemsbotonera li {
+	font-size: 8pt;
+}
 }
