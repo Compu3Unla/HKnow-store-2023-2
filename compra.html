@@ -8,6 +8,17 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@300;400;500;600;700&display=swap"
 		rel="stylesheet">
+	<script>
+		function cambiarDisplay(visibilidadNueva){
+			document.getElementById("galeria").style.display = visibilidadNueva
+		}
+		function mostrarGaleria(){
+			cambiarDisplay('flex')
+		}
+		function ocultar(){
+			cambiarDisplay('none')
+		}
+	</script>
 </head>
 
 <body>
@@ -42,7 +53,17 @@
 	</header>
 	<main>
 		<section class="compra">
-			<img src="img/piraminxcube.jpg" width="528px" height="528px" alt="cuboprincipal">
+			<div class="productoespecifijo">
+				<img src="img/piraminxcube.jpg" width="528px" height="528px" alt="cuboprincipal">
+			<div class="fotos-producto">
+				<div class="vistas-cubo">
+					<a href="#foto-1" onclick="mostrarGaleria()"><img src="img/comprapreview01.jpg" width="75" height="75" alt="vista1"></a>
+					<a href="#foto-2" onclick="mostrarGaleria()"><img src="img/comprapreview02.jpg" width="75" height="75" alt="vista2"></a>
+					<a href="#foto-3" onclick="mostrarGaleria()"><img src="img/comprapreview03.jpg" width="75" height="75" alt="vista3"></a>
+					<a href="#foto-4" onclick="mostrarGaleria()"><img src="img/comprapreview04.jpg" width="75" height="75" alt="vista4"></a>
+				</div>
+			</div>
+			</div>
 			<div class="informacion-producto">
 				<div class="textox">
 					<h3>Piraminx Cube</h3>
@@ -58,15 +79,33 @@
 					</nav>
 				</div>
 			</div>
-			<!--<div class="fotos-producto"></div>
-				<img src="img/comprapreview01.jpg" width="200" height="200" alt="cubo1"/>
-				<div class="vistas-cubo">	
-					<img src="img/comprapreview01.jpg"  width="200" height="200" alt="vista1"/>
-					<img src="img/comprapreview02.jpg"  width="200" height="200" alt="vista2"/>
-					<img src="img/comprapreview03.jpg"  width="200" height="200" alt="vista3"/>
-					<img src="img/comprapreview04.jpg"  width="200" height="200" alt="vista4"/>
-				</div>-->
 		</section>
+			<section id="galeria">
+				<div class="fondo-galeria">
+				<ul id="galeria-oculta">
+				<li class="fraccion-galeria" id="foto-1">
+					<a href="#foto-4" class="primer-ultima-flecha"><img src="img/back.svg" width="30px" height="30px" alt="Anterior"></a>
+					<img class="close" src="img/close.svg" alt="Cerrar" width="30px" height="30px" onClick="ocultar()">
+					<a href="#foto-2"><img src="img/next.svg" width="30px" height="30px" alt="Siguiente"></a>
+				</li>
+				<li class="fraccion-galeria" id="foto-2">
+					<a href="#foto-1"><img src="img/back.svg" width="30px" height="30px" alt="Anterior"></a>
+					<img class="close" src="img/close.svg" alt="Cerrar" width="30px" height="30px" onClick="ocultar()">
+					<a href="#foto-3"><img src="img/next.svg" width="30px" height="30px" alt="Siguiente"></a>
+				</li>
+				<li class="fraccion-galeria" id="foto-3">
+					<a href="#foto-2"><img src="img/back.svg" width="30px" height="30px" alt="Anterior"></a>
+					<img class="close" src="img/close.svg" alt="Cerrar" width="30px" height="30px" onClick="ocultar()">
+					<a href="#foto-4"><img src="img/next.svg" width="30px" height="30px" alt="Siguiente"></a>
+				</li>
+				<li class="fraccion-galeria" id="foto-4">
+					<a href="#foto-3"><img src="img/back.svg" width="30px" height="30px" alt="Anterior"></a>
+					<img class="close" src="img/close.svg" alt="Cerrar" width="30px" height="30px" onClick="ocultar()">
+					<a href="#foto-1" class="primer-ultima-flecha"><img src="img/next.svg" width="30px" height="30px" alt="Siguiente"></a>
+				</li>
+				</ul>
+				</div>
+			</section>
 		<section class="otros-productos">
 			<h4>Check this other products too!</h4>
 			<article class="productofila">
