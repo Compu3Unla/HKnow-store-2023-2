@@ -198,7 +198,7 @@ h3 {
 }
 .productofila {
 	width: 50%;
-	padding: 0px 0px 60px 20px;
+	padding: 0px;
 	display: flex;
 	flex-direction:row;
 	justify-content: space-between;
@@ -225,7 +225,7 @@ h3 {
 .anuncio{
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+	margin-top: 75px;
 	
 }
 
@@ -609,4 +609,16 @@ footer ul {
 }
 #foto-4 {
 	background-image:url("img/comprapreview04.jpg");
+}
+
+/* compra */
+.productoespecifijo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+.vistas-cubo {
+	display: flex;
+	gap: 2rem;
 }
