@@ -217,22 +217,6 @@ h3 {
 	font-size: 14pt;
 }
 
-/*sale*/
-
-.sale{
-    background-image: url("img/pattern_cubos01.jpg");
-	background-repeat: repeat;
-    background-size: 100%;
-	margin-top: 5rem;
-    padding-top: 10px;
-    display: flex;
-    justify-items: center;
-    flex-direction: row;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
 
 /*anuncio*/
 .anuncio{
@@ -322,68 +306,47 @@ h3 {
 
 
 /*formulario*/
-.contacto{
+.contacto {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin-left: 100px;
-	width: 50%;
+	max-width: 600px;
+	width: 100%;
+}
+.feedback-input {
+	color:white;
+	font-weight:500;
+	font-size: 18px;
+	border-radius: 5px;
+	line-height: 22px;
+	background-color: transparent;
+	border:2px solid #B388EB;
+	transition: all 0.3s;
+	padding: 13px;
+	margin-bottom: 15px;
+	width:100%;
+	box-sizing: border-box;
+	outline:0;
 }
 
-label {
-  display: inline-block;
-}
-.divisionesform {
-  margin: 10px;
-  padding: 10px 0px 20px;
-}
-
-input, textarea {
-  width: 50%;
-  border: none;
-  background: #FFFBE7;
-  padding:10px;
-}
+.feedback-input:focus { border:2px solid #CC4949; }
 
 textarea {
-  height: 100px;
+	height: 150px;
+	line-height: 150%;
+	resize:vertical;
 }
 
-
-input:hover,
-textarea:hover {
-    background: #aaa;
-}
-input:focus,
-textarea:focus {
-    background: #83F35C;
-}
-input:hover, textarea:hover {
-	background: #aaa;
-}
-
-input:focus, textarea:focus {
-  background: #83F35C;
-}
-
-button {
-	background: black;
-	border: none;
-	padding: 10px;
+[type="submit"] {
+	width: 100%;
+	background:#B388EB;
+	border-radius:5px;
+	border:0;
 	color:white;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: 15pt;
+	font-size:24px;
+	padding-top:10px;
+	padding-bottom:10px;
+	transition: all 0.3s;
+	font-weight:700;
 }
-
-button:hover {
- background: #C39DF2; 
-}
-
-button:active {
-  background: #83F35C;
-}
-
 /*usuariosesion*/
 
 .usuario {
@@ -492,12 +455,18 @@ input[type="submit"]:active {
 
 /*COMPRA*/
 
+.compra {
+	display: flex;
+	justify-content: center;
+	gap: 5%
+}
+
 .informacion-producto{
 	display: flex;
 	padding: 10px 0px;
 	flex-direction: column;
-	align-items: flex-start;
-	align-content: flex-start;
+	align-items:flex-start;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	gap: 10%;
 }
@@ -513,7 +482,6 @@ input[type="submit"]:active {
 	justify-content: center;
 	gap: 30%;
 	padding-top: 10%;
-	
 	color: #1E1E1E;
 	font-family: Montserrat;
 	font-size: 32px;
@@ -525,11 +493,9 @@ input[type="submit"]:active {
 .informacion-producto p{
 	width: 556px;
 	height: 124px;
-	flex-shrink: 0;
 	gap: 10%;
 	padding-top: 5%;
-	
-	color: #000;
+	color: #000000;
 	font-family: Montserrat;
 	font-size: 20px;
 	font-style: normal;
@@ -537,27 +503,21 @@ input[type="submit"]:active {
 	line-height: 161.9%; /* 32.38px */
 }
 
-.compra nav ul{
+.compra b {
+	width: 200px;
+	height: 42px;
 	display: flex;
-	width: 230px;
-	height: 58px;
-	padding: 10px;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
-}
-
-.compra nav ul:hover{
-	border-radius: 25px;
-	border: 1px solid #000;
+	border-radius: 20px;
+	border: 1px solid #000000;
 	background: #FFDAA1;
-} 
+}
 
 .vistas-cubo{
 	width: 30%;
 	height: 30%;
 }
-
 
 /*footer*/
 
@@ -578,6 +538,3 @@ footer ul {
 	display: flex;
 	gap: 55px;
 }
-
-
-
