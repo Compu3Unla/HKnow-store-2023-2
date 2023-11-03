@@ -17,6 +17,17 @@ body {
 	background-color: #FFFEF4;
 	background: linear-gradient(#FFFBE7, #CFA9FE);
 	background-size: 200% 200%;
+	opacity: 100;
+	animation: fadeIn 1.5s ease-in; 
+}
+@keyframes fadeIn {  
+	from {
+		opacity:0;
+}
+
+	to {
+		opacity:1;
+}
 }
 
 header{
