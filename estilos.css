@@ -80,6 +80,7 @@ header{
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 50px;
+	align-items: center;
 }
 
 .textoinferiorheader{
@@ -114,10 +115,13 @@ img.busqueda:hover {
 
 img.icono-carrito:hover {
 	transform: scale(1.08);
+	align-items: center; 
 }
 
 img.icono-usuario:hover {
 	transform: scale(1.08);
+	align-items: center; 
+
 }
 
 /*seccion New Arrivals*/
@@ -418,7 +422,7 @@ div.caja.p:hover {
 }
 .feedback-input {
 	display: flex;
-	color:white;
+	color:#000000;
 	font-weight:500;
 	font-size: 18px;
 	border-radius: 5px;
@@ -652,12 +656,13 @@ footer a {
 	color: black;
 }
 /* galeria */
+
 #galeria {
 	display: none;
 	width: 100%;
 	justify-content: center;
 	height: 100vh;
-	background-color: #000000;
+	background: rgba(0,0,0,0.8);
 	position: absolute;
 	top: 0;
 	z-index: 10;
@@ -694,7 +699,7 @@ footer a {
 }
 #fondo-galeria {
 	background-color: black;
-	opacity: 0.9;
+	opacity: 0.1;
 	position: fixed;
 	top: 0;
 	width: 100%;
