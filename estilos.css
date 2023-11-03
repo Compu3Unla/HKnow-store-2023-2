@@ -135,6 +135,17 @@ img.icono-usuario:hover {
 
 }
 
+#s {
+	max-width: 70%;
+	border-radius: 18px;
+	border: 2px solid #313131;
+	background: #FFDAA1; 
+}
+
+fieldset {
+	border:none;
+}
+
 /*seccion New Arrivals*/
 
 
