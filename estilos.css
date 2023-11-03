@@ -458,7 +458,7 @@ textarea {
 .usuario {
 	margin: 3% auto 0 auto;
 	padding: 60px;
-	width: 400px;
+	max-width: 400px;
 	height: auto;
 	overflow: auto;
 	background: white;
@@ -730,7 +730,7 @@ footer a {
 	display: flex;
 	gap: 2rem;
 }
-/* media vinculo */
+/* media */
 @media screen and (max-width: 600px) {
 	.itemsinferioresheader {
 	display: flex;
@@ -749,14 +749,16 @@ footer a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 45px;
+	padding-top: 0px;
 }
 .botoneraheader {
 	margin: 0px;
-	/*padding: 0.75rem;*/
 }
 .botoneraheader ul {
 	gap: 20px;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
 }
 .itemsbotonera li {
 	font-size: 10pt;
@@ -765,7 +767,7 @@ footer ul li {
 	font-size: 5pt;
 }
 .anuncio {
-  overflow: hidden;
+	display: none;
 }
 .textoinferiorheader h2{
 	font-size: 15px;
@@ -774,15 +776,32 @@ footer ul li {
 img.busqueda {
 	width: 50%;
 }
+.imageninferiorheader {
+	display: flex;
+	justify-content: center;
+}
 .textoinferiorheader {
 	text-align: center;
 }
 .productofila {
-	width: 80%;
+	width: 95%;
 	padding: 0px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
+}
+.busqueda {
+	display: none;
+}
+header {
+	padding: 10px 10px;
+}
+footer ul {
+	display: flex;
+	gap: 23px;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 }
