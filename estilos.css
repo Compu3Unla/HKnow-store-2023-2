@@ -861,4 +861,8 @@ footer ul {
 .compra {
 flex-wrap: wrap;
 }
+header{
+	bottom: 0;
+	top: auto;
+}
 }
