@@ -33,7 +33,8 @@ body {
 header{
 	position: sticky;
 	background-color: #83F35C;
-	padding: 10px 96px; 
+	padding: 10px 96px;
+	top: 0px;
 }
 .sectionheader{
 	display: flex;
